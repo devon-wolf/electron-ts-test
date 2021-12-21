@@ -1,8 +1,6 @@
 import { app, BrowserWindow } from 'electron';
 import * as path from 'path';
 
-// following the quick start guide here: https://www.electronjs.org/docs/latest/tutorial/quick-start
-
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
