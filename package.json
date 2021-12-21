@@ -1,7 +1,7 @@
 {
-  "name": "very-blank-template",
+  "name": "electron-ts-test",
   "version": "1.0.0",
-  "description": "bare bones Node TypeScript template",
+  "description": "setup of demo electron app with typescript",
   "main": "dist/main.js",
   "scripts": {
     "start": "tsc && electron .",
@@ -23,12 +23,10 @@
     "@types/jest": "^27.0.3",
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
-    "concurrently": "^6.5.1",
     "electron": "^16.0.5",
     "eslint": "^8.5.0",
     "eslint-plugin-import": "^2.25.3",
     "jest": "^27.4.5",
-    "nodemon": "^2.0.15",
     "prettier": "^2.5.1",
     "ts-jest": "^27.1.2",
     "typescript": "^4.5.4"
