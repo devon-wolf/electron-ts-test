@@ -5,9 +5,6 @@
   "main": "dist/main.js",
   "scripts": {
     "start": "tsc && electron .",
-    "build:dev": "tsc --watch --preserveWatchOutput",
-    "start:dev": "nodemon dist/main.js",
-    "start:watch": "concurrently \"npm:build:dev\", \"npm:start:dev\"",
     "format": "prettier --write .",
     "test": "jest --verbose --runInBand --testLocationInResults --detectOpenHandles",
     "test:watch": "jest --watch --verbose --runInBand --testLocationInResults --detectOpenHandles"
